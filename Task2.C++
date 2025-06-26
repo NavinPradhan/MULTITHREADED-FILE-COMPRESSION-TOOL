@@ -6,7 +6,7 @@
 #include <condition_variable>
 #include <zlib.h>
 
-const size_t CHUNK_SIZE = 1024 * 1024; // 1MB
+const size_t CHUNK_SIZE = 1024 * 1024;
 
 struct Chunk
 {
